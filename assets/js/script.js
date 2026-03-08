@@ -5,6 +5,7 @@ const playerScoreElement = document.getElementById("player-score");
 const compScoreElement = document.getElementById("computer-score");
 const playerImage = document.getElementById("player-image");
 const compImage = document.getElementById("computer-image");
+const messageElement = document.getElementById("messages");
 const choices = ["rock", "paper", "scissors"];
 
 /* Add event listeners to all buttons */
@@ -35,7 +36,7 @@ function playGame(playerChoice) {
 
 function checkWinner(compChoice, playerChoice) {
     if (compChoice === playerChoice) {
-        return "tie";
+        return "draw";
     }
 
     if ((playerChoice === "rock" && compChoice === "scissors") ||
@@ -55,12 +56,12 @@ function updateScores(result) {
 
     if (result === "player") {
         playerScoreElement.textContent = ++pScore;
-        console.log("You have won this round!");
+        messageElement.textContent = "Victory! You win this round!";
     } else if (result === "computer") {
         compScoreElement.textContent = ++cScore;
-        console.log("The computer has won this round!");
+        messageElement.textContent = "Defeat! Computer wins this round!";
     } else {
-        console.log("It's a draw!");
+        messageElement.textContent = "It's a draw!";
     }
 
 }

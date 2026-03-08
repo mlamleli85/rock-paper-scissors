@@ -4,6 +4,11 @@
 
 /* Global Styles */
 
+htmnl {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family: "Carter One", sans-serif;
   background-color: #f1f1d0;
