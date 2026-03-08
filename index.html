@@ -12,11 +12,8 @@
   <body>
     <header>
       <h1>ROCK, PAPER, SCISSORS!</h1>
-        <p>
-          <img src="assets/images/rock-paper-scissors.png" alt="The Rock, Paper, Scissors logo">
-        </p>
-      
     </header>
+
     <section class="play-area">
       <div>
         
@@ -35,11 +32,22 @@
           <i class="fa-solid fa-hand-scissors"></i>
         </button>
       </div>
+      <!-- Play Game Section -->
+      <div id="play-game">
+        <div class="player">
+          <h3 class="score">Player Score: <span id="player-score">0</span></h3>
+          <img id="player-image" src="assets/images/rock-paper-scissors.png" alt="The Rock, Paper, Scissors logo">
+        </div>
 
-      <div class="score-board">
-        <p>Player Score: <span id="player-score">0</span></p>
-        <p>Computer Score: <span id="computer-score">0</span></p>
-      </div>
+        <div class="vs">
+          <h2>VS</h2>
+        </div>
+
+        <div class="computer">
+          <h3 class="choice">Computer Score: <span id="computer-score">0</span></h3>
+          <img id="computer-image" src="assets/images/rock-paper-scissors.png" alt="The Rock, Paper, Scissors logo">
+        </div>
+      </div>  
     </section>
     <footer>
 

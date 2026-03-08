@@ -22,12 +22,45 @@ function playGame(playerChoice) {
     playerImage.src = `assets/images/${choices[playerChoice]}.png`;
     playerImage.alt = choices[playerChoice];
 
-    let compChoice = Math.floor(Math.random *3);
-
+    let compChoice = Math.floor(Math.random() * 3);
     compImage.src = `assets/images/${choices[compChoice]}.png`;
     compImage.alt = choices[compChoice];
 
     let result = checkWinner(choices[compChoice], choices[playerChoice]);
 
     updateScores(result);
+}
+
+/* Function to determine the winner of the game */
+
+function checkWinner(compChoice, playerChoice) {
+    if (compChoice === playerChoice) {
+        return "tie";
+    }
+
+    if ((playerChoice === "rock" && compChoice === "scissors") ||
+        (playerChoice === "paper" && compChoice === "rock") ||
+        (playerChoice === "scissors" && compChoice === "paper")) {
+        return "player";
+    } else {
+        return "computer";
+    }
+}
+
+/* Function to update the scores based on the result of the game */
+
+function updateScores(result) {
+    let pScore = parseInt(playerScoreElement.textContent);
+    let cScore = parseInt(compScoreElement.textContent);
+
+    if (result === "player") {
+        playerScoreElement.textContent = ++pScore;
+        console.log("You have won this round!");
+    } else if (result === "computer") {
+        compScoreElement.textContent = ++cScore;
+        console.log("The computer has won this round!");
+    } else {
+        console.log("It's a draw!");
+    }
+
 }
