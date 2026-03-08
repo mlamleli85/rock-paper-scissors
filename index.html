@@ -10,33 +10,44 @@
   </head>
 
   <body>
-    <h1 class="header">ROCK, PAPER, SCISSORS!</h1>
-    <div>
-      <img
-        src="assets/images/rock-paper-scissors.png"
-        alt="The Rock, Paper, Scissors logo"
-      />
-    </div>
-
-    <div class="player-choice">
+    <header>
+      <h1>ROCK, PAPER, SCISSORS!</h1>
+        <p>
+          <img src="assets/images/rock-paper-scissors.png" alt="The Rock, Paper, Scissors logo">
+        </p>
+      
+    </header>
+    <section class="play-area">
       <div>
-        <h2>Choose your weapon:</h2>
-      <button class="btn">
-        <img src="assets/images/rock.png" alt="Rock" />
-      </button>
-      <button class="btn">
-        <img src="assets/images/paper.png" alt="Paper" />
-      </button>
-      <button class="btn">
-        <img src="assets/images/scissors.png" alt="Scissors" />
-      </button>
-    </div>
+        
+      </div>
 
-    <div class="score-board">
-      <p>Player Score: <span id="player-score">0</span></p>
-      <p>Computer Score: <span id="computer-score">0</span></p>
-    </div>
-    <footer></footer>
+      <div class="player-choice">
+        <div>
+          <h2>Choose your weapon:</h2>
+        <button class="control" data-choice="0">Rock
+          <i class="fa-solid fa-hand-back-fist"></i>
+        </button>
+        <button class="control" data-choice="1">Paper
+          <i class="fa-solid fa-hand"></i>
+        </button>
+        <button class="control" data-choice="2">Scissors
+          <i class="fa-solid fa-hand-scissors"></i>
+        </button>
+      </div>
+
+      <div class="score-board">
+        <p>Player Score: <span id="player-score">0</span></p>
+        <p>Computer Score: <span id="computer-score">0</span></p>
+      </div>
+    </section>
+    <footer>
+
+    </footer>
+
+    <!-- Font Awesome script -->
+    <script src="https://kit.fontawesome.com/7e71df1cf2.js" crossorigin="anonymous"></script>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
