@@ -21,14 +21,14 @@ body {
 
 header {
   font-size: 2rem;
-  padding: 20px 5px 5px 5px;
+  padding: 10px 0px 0px 0px;
 }
 
 footer {
   background-color: rgb(213, 149, 114);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   margin-top: auto;
 }
 
@@ -37,9 +37,9 @@ footer {
 .play-area {
   flex: 1;
   width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 1200px;
+  margin: -10px auto 100px auto;
+  padding: 10px 20px;
   box-sizing: border-box;
 }
 
@@ -73,32 +73,25 @@ footer {
 #play-game {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 60px;
+  margin-top: 10px;
 }
 
 .player,
 .computer {
   flex: 1;
-  max-width: 45%;
-}
-
-.vs {
-  flex: 0 0 auto;
-  padding: 0 5px;
-  font-size: 1.5rem;
+  max-width: 450px;
 }
 
 img {
   width: 100%;
   height: auto;
-  max-width: 220px;
+  max-width: 400px;
   display: block;
-  padding: 5px;
+  padding: 0px;
   margin: 0 auto;
 }
 
