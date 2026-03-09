@@ -33,7 +33,7 @@ The result of each round is then displayed on the screen with the scores updatin
 ### Footer
 
 - The footer section contains the rules of the game.
-  ![image](image url)
+  ![image]([image_url](https://github.com/mlamleli85/rock-paper-scissors/blob/4cdff83289a834905ecde95bd755dc8a1e492f0d/Screenshot%202026-03-09%20at%2012.55.59.png))
 
 ### Testing
 
