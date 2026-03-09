@@ -28,7 +28,7 @@ The result of each round is then displayed on the screen with the scores updatin
 - A message is then displayed on the screen showing the winner of the round.
   ![image alt]([image_url](https://github.com/mlamleli85/rock-paper-scissors/blob/50c8de248158f627b7656b939f9fe174eacb6fab/Screenshot%202026-03-09%20at%2012.54.52.png))
 - The score of the user and computer are then displayed on the corresponding side of the screen. This is updated automatically to keep track of the scores and is always visible.
-  ![image alt](https://github.com/mlamleli85/rock-paper-scissors/blob/67dfa188bec1343a347ab4d5664054bb7e156c8f/Screenshot%202026-03-09%20at%2012.55.40.png)
+  ![image alt]([image_url])(https://github.com/mlamleli85/rock-paper-scissors/blob/67dfa188bec1343a347ab4d5664054bb7e156c8f/Screenshot%202026-03-09%20at%2012.55.40.png)
 
 ### Footer
 
