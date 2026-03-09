@@ -19,7 +19,7 @@ The result of each round is then displayed on the screen with the scores updatin
 
 - Below that you find the three buttons from which the user can choose. Icons taken from Font Awesome assist the user with a visual to make it easier to know what they are selecting.
 - These icons are highlighted when the user moves the cursor over them.
-  [image alt](image url)
+  [image alt]([image url](https://github.com/mlamleli85/rock-paper-scissors/blob/7700a0292ff211cf9627d51bf7aa29d2c9389c39/Screenshot%202026-03-09%20at%2012.53.39.png))
 
 ### Results
 
