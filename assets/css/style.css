@@ -5,7 +5,6 @@
 /* Global Styles */
 
 html {
-  /**position: relative;**/
   min-height: 100%;
   margin: 0;
 }
@@ -13,14 +12,16 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   font-family: "Carter One", sans-serif;
   background-color: #ded9b4f6;
   text-align: center;
+  margin: 0;
 }
 
 header {
   font-size: 2rem;
-  padding: 20px 0 5px 0;
+  padding: 20px 5px 5px 5px;
 }
 
 footer {
@@ -28,59 +29,33 @@ footer {
   font-size: 1.3rem;
   width: 100%;
   padding: 1rem;
+  margin-top: auto;
 }
 
 /* Play Area styles */
+
 .play-area {
   flex: 1;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-#play-game {
-  margin-top: 30px;
-}
-
-.play-game::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.player {
-  float: left;
-  width: 40%;
-}
-
-.vs {
-  float: left;
-  width: 20%;
-  margin-top: 80px;
-  font-size: 2rem;
-}
-
-.computer {
-  float: right;
-  width: 40%;
-}
-
-img {
   width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 20px;
-  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+.player-choice {
+  margin-bottom: 20px;
 }
 
 .control {
   padding: 12px 24px;
   margin: 8px;
   cursor: pointer;
-  background-color: #f0c27b;
-  border: 2px solid rgb(213, 149, 114);
+  background-color: rgb(213, 149, 114);
+  border: 2px solid rgb(125, 64, 31);
   border-radius: 8px;
   font-size: 1.2rem;
+  font-family: inherit;
 }
 
 .control:hover {
@@ -90,9 +65,41 @@ img {
 
 #messages {
   font-size: 1.5rem;
-  margin: 25px 0;
+  margin: 20px 0;
   min-height: 40px;
-  color: #8b4513;
+  color: black;
+}
+
+#play-game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.player,
+.computer {
+  flex: 1;
+  max-width: 45%;
+}
+
+.vs {
+  flex: 0 0 auto;
+  padding: 0 5px;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 220px;
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
 }
 
 .score {
