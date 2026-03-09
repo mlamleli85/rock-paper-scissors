@@ -44,7 +44,7 @@ The result of each round is then displayed on the screen with the scores updatin
 - No errors were detected using the W3C Markup Validation Sevice (HTML).
 - No errors were detected using the W3C CSS Validation Sevice (CSS).
 - Using the Lighthouse feature in DevTools, I tested the website's accessiblity.
-![image alt](image url)
+![image alt](https://github.com/mlamleli85/rock-paper-scissors/blob/c2cd746c1b0e968dd25f1231227ffd2b19e5c13f/Screenshot%202026-03-09%20at%2010.44.47.png))
 
 ### Bugs
 
