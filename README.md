@@ -6,20 +6,20 @@ The Rock, Paper, Scissors is a game many of would have played growing up. This i
 
 The result of each round is then displayed on the screen with the scores updating automatically to track who is ahead.
 
-![image alt]([image_url](https://github.com/mlamleli85/rock-paper-scissors/blob/b794b975948bdae2e74d6c5bafdc7a3520d847e8/responsiveness%20screenshot.png))
+![image alt](https://github.com/mlamleli85/rock-paper-scissors/blob/b794b975948bdae2e74d6c5bafdc7a3520d847e8/responsiveness%20screenshot.png))
 
 ## Features
 
 ### Header
 
 - At the top of the page is the title of the game.
-![image alt]([image url](https://github.com/mlamleli85/rock-paper-scissors/blob/8495017ff51221ab422b9f6122b2d7b1e57b0507/Screenshot%202026-03-09%20at%2012.52.59.png))
+![image alt](https://github.com/mlamleli85/rock-paper-scissors/blob/8495017ff51221ab422b9f6122b2d7b1e57b0507/Screenshot%202026-03-09%20at%2012.52.59.png))
 
 ### Play Area
 
 - Below that you find the three buttons from which the user can choose. Icons taken from Font Awesome assist the user with a visual to make it easier to know what they are selecting.
 - These icons are highlighted when the user moves the cursor over them.
-  ![image alt]([image_url](https://github.com/mlamleli85/rock-paper-scissors/blob/fc7a848468c1d8dbf6b85422d21a1dac7363b36c/Screenshot%202026-03-09%20at%2012.53.39.png))
+  ![image alt](https://github.com/mlamleli85/rock-paper-scissors/blob/fc7a848468c1d8dbf6b85422d21a1dac7363b36c/Screenshot%202026-03-09%20at%2012.53.39.png))
 
 ### Results
 
@@ -32,7 +32,7 @@ The result of each round is then displayed on the screen with the scores updatin
 ### Footer
 
 - The footer section contains the rules of the game.
-  ![image]([image_url](https://github.com/mlamleli85/rock-paper-scissors/blob/4cdff83289a834905ecde95bd755dc8a1e492f0d/Screenshot%202026-03-09%20at%2012.55.59.png))
+  ![image alt](https://github.com/mlamleli85/rock-paper-scissors/blob/4cdff83289a834905ecde95bd755dc8a1e492f0d/Screenshot%202026-03-09%20at%2012.55.59.png))
 
 ### Testing
 
