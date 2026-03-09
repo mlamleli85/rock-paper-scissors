@@ -5,8 +5,8 @@ const playerScoreElement = document.getElementById("player-score");
 const compScoreElement = document.getElementById("computer-score");
 const playerImage = document.getElementById("player-image");
 const compImage = document.getElementById("computer-image");
-const messageElement = document.getElementById("messages");
 const choices = ["rock", "paper", "scissors"];
+const messageElement = document.getElementById("messages");
 
 /* Add event listeners to all buttons */
 
