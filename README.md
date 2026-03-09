@@ -6,7 +6,7 @@ The Rock, Paper, Scissors is a game many of would have played growing up. This i
 
 The result of each round is then displayed on the screen with the scores updating automatically to track who is ahead.
 
-![image alt](image_url)
+![image alt]([image_url](https://github.com/mlamleli85/rock-paper-scissors/blob/b794b975948bdae2e74d6c5bafdc7a3520d847e8/responsiveness%20screenshot.png))
 
 ## Features
 
