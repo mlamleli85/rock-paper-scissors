@@ -13,11 +13,13 @@ The result of each round is then displayed on the screen with the scores updatin
 ### Header
 
 - At the top of the page is the title of the game.
+![image alt](image url)
 
 ### Play Area
 
 - Below that you find the three buttons from which the user can choose. Icons taken from Font Awesome assist the user with a visual to make it easier to know what they are selecting.
 - These icons are highlighted when the user moves the cursor over them.
+  [image alt](image url)
 
 ### Results
 
@@ -26,6 +28,11 @@ The result of each round is then displayed on the screen with the scores updatin
 - A message is then displayed on the screen showing the winner of the round.
 - The score of the user and computer are then displayed on the corresponding side of the screen. This is updated automatically to keep track of the scores and is always visible.
   ![image alt](https://github.com/mlamleli85/rock-paper-scissors/blob/67dfa188bec1343a347ab4d5664054bb7e156c8f/Screenshot%202026-03-09%20at%2012.55.40.png)
+
+### Footer
+
+- The footer section contains the rules of the game.
+  ![image](image url)
 
 ### Testing
 
@@ -37,6 +44,7 @@ The result of each round is then displayed on the screen with the scores updatin
 - No errors were detected using the W3C Markup Validation Sevice (HTML).
 - No errors were detected using the W3C CSS Validation Sevice (CSS).
 - Using the Lighthouse feature in DevTools, I tested the website's accessiblity.
+![image alt](image url)
 
 ### Bugs
 
