@@ -13,7 +13,7 @@ The result of each round is then displayed on the screen with the scores updatin
 ### Header
 
 - At the top of the page is the title of the game.
-![image alt](image url)
+![image alt]([image url](https://github.com/mlamleli85/rock-paper-scissors/blob/8495017ff51221ab422b9f6122b2d7b1e57b0507/Screenshot%202026-03-09%20at%2012.52.59.png))
 
 ### Play Area
 
