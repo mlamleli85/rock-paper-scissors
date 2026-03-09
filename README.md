@@ -19,14 +19,14 @@ The result of each round is then displayed on the screen with the scores updatin
 
 - Below that you find the three buttons from which the user can choose. Icons taken from Font Awesome assist the user with a visual to make it easier to know what they are selecting.
 - These icons are highlighted when the user moves the cursor over them.
-  [image alt]([image url](https://github.com/mlamleli85/rock-paper-scissors/blob/7700a0292ff211cf9627d51bf7aa29d2c9389c39/Screenshot%202026-03-09%20at%2012.53.39.png))
+  ![image alt]([image_url](https://github.com/mlamleli85/rock-paper-scissors/blob/fc7a848468c1d8dbf6b85422d21a1dac7363b36c/Screenshot%202026-03-09%20at%2012.53.39.png))
 
 ### Results
 
 - Once the user has made their selection, this will be displayed on the left side of the screen.
 - The computer's selection is randomly selected and displayed opposite the player's selection on the left of the screen.
 - A message is then displayed on the screen showing the winner of the round.
-  ![image alt]([image_url](https://github.com/mlamleli85/rock-paper-scissors/blob/63acd2178a813db6241990870c62714da29f9d53/Screenshot%202026-03-09%20at%2012.55.40.png))
+  ![image alt](https://github.com/mlamleli85/rock-paper-scissors/blob/63acd2178a813db6241990870c62714da29f9d53/Screenshot%202026-03-09%20at%2012.55.40.png))
 - The score of the user and computer are then displayed on the corresponding side of the screen. This is updated automatically to keep track of the scores and is always visible.
 
 ### Footer
