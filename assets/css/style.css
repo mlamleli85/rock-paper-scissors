@@ -5,12 +5,97 @@
 /* Global Styles */
 
 html {
-  position: relative;
+  /**position: relative;**/
   min-height: 100%;
+  margin: 0;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Carter One", sans-serif;
-  background-color: #f1f1d0;
+  background-color: #ded9b4f6;
   text-align: center;
+}
+
+header {
+  font-size: 2rem;
+  padding: 20px 0 5px 0;
+}
+
+footer {
+  background-color: rgb(213, 149, 114);
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Play Area styles */
+.play-area {
+  flex: 1;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#play-game {
+  margin-top: 30px;
+}
+
+.play-game::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.player {
+  float: left;
+  width: 40%;
+}
+
+.vs {
+  float: left;
+  width: 20%;
+  margin-top: 80px;
+  font-size: 2rem;
+}
+
+.computer {
+  float: right;
+  width: 40%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  padding: 20px;
+  margin: 10px auto;
+}
+
+.control {
+  padding: 12px 24px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: #f0c27b;
+  border: 2px solid rgb(213, 149, 114);
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.control:hover {
+  background-color: #f0a27b;
+  color: #8b4513;
+}
+
+#messages {
+  font-size: 1.5rem;
+  margin: 25px 0;
+  min-height: 40px;
+  color: #8b4513;
+}
+
+.score {
+  font-size: 1.2rem;
+  margin: 10px 0;
 }
